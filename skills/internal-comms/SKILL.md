@@ -1,12 +1,12 @@
 ---
 name: internal-comms
-description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
-license: Complete terms in LICENSE.txt
+description: 一组资源，帮助我按照公司偏好的格式撰写各种内部沟通稿。只要用户要求编写内部沟通内容（status reports、leadership updates、3P updates、company newsletters、FAQs、incident reports、project updates 等），就应该使用此技能。
+license: 完整条款见 LICENSE.txt
 ---
 
-## When to use this skill
-To write internal communications, use this skill for:
-- 3P updates (Progress, Plans, Problems)
+## 适用场景
+需要撰写内部沟通内容时，使用此技能来创建：
+- 3P updates（Progress、Plans、Problems）
 - Company newsletters
 - FAQ responses
 - Status reports
@@ -14,19 +14,19 @@ To write internal communications, use this skill for:
 - Project updates
 - Incident reports
 
-## How to use this skill
+## 使用方法
 
-To write any internal communication:
+要撰写任何内部沟通：
 
-1. **Identify the communication type** from the request
-2. **Load the appropriate guideline file** from the `examples/` directory:
-    - `examples/3p-updates.md` - For Progress/Plans/Problems team updates
-    - `examples/company-newsletter.md` - For company-wide newsletters
-    - `examples/faq-answers.md` - For answering frequently asked questions
-    - `examples/general-comms.md` - For anything else that doesn't explicitly match one of the above
-3. **Follow the specific instructions** in that file for formatting, tone, and content gathering
+1. **识别沟通类型**：从用户请求中判断内容类型
+2. **加载对应的 guideline 文件**（位于 `examples/` 目录）：
+    - `examples/3p-updates.md` - 适用于 Progress/Plans/Problems 团队更新
+    - `examples/company-newsletter.md` - 适用于面向全公司的 newsletter
+    - `examples/faq-answers.md` - 适用于回答常见问题
+    - `examples/general-comms.md` - 适用于其他未明确匹配上述类型的场景
+3. **遵循文件里的具体说明**，包括格式、语气与信息收集方式
 
-If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.
+如果沟通类型不符合任何现有指南，先询问用户所需格式或补充上下文。
 
 ## Keywords
-3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms
+3P updates, company newsletter, company comms, weekly update, FAQs, common questions, updates, internal comms

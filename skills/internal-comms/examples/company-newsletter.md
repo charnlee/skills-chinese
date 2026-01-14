@@ -1,65 +1,25 @@
 ## Instructions
-You are being asked to write a company-wide newsletter update. You are meant to summarize the past week/month of a company in the form of a newsletter that the entire company will read. It should be maybe ~20-25 bullet points long. It will be sent via Slack and email, so make it consumable for that.
+公司级 newsletter 旨在向全体成员同步重点进展、庆祝成就、传递文化氛围。内容要有清晰结构，便于快速浏览。
 
-Ideally it includes the following attributes:
-- Lots of links: pulling documents from Google Drive that are very relevant, linking to prominent Slack messages in announce channels and from executives, perhgaps referencing emails that went company-wide, highlighting significant things that have happened in the company.
-- Short and to-the-point: each bullet should probably be no longer than ~1-2 sentences
-- Use the "we" tense, as you are part of the company. Many of the bullets should say "we did this" or "we did that"
+## Workflow
 
-## Tools to use
-If you have access to the following tools, please try to use them. If not, you can also let the user know directly that their responses would be better if they gave them access.
+1. **明确主题与频率**：常见为周报/月报。确认本期重点板块（业务、产品、文化、人物等）。
+2. **收集素材**：询问用户或各部门联系人，获取需要上刊的事项、图片、引语等。
+3. **板块规划**：建议 3-5 个模块，每个模块包含标题、摘要、可选的要点列表。
+4. **撰写**：语气亲切但专业，突出亮点与影响。
+5. **审核**：检查日期、数据、姓名等细节；确保不会泄露敏感信息。
 
-- Slack: look for messages in channels with lots of people, with lots of reactions or lots of responses within the thread
-- Email: look for things from executives that discuss company-wide announcements
-- Calendar: if there were meetings with large attendee lists, particularly things like All-Hands meetings, big company announcements, etc. If there were documents attached to those meetings, those are great links to include.
-- Documents: if there were new docs published in the last week or two that got a lot of attention, you can link them. These should be things like company-wide vision docs, plans for the upcoming quarter or half, things authored by critical executives, etc.
-- External press: if you see references to articles or press we've received over the past week, that could be really cool too.
+## Suggested Sections
 
-If you don't have access to any of these things, you can ask the user for things they want to cover. In this case, you'll mostly just be polishing up and fitting to this format more directly.
+- 本期导语：1-2 句欢迎语或总览
+- 业务/产品更新：列举关键发布、数据
+- 团队故事或人物聚焦：展示文化与价值观
+- 即将发生：活动、重要里程碑、提醒
+- 致谢与庆祝：表彰团队/个人成就
 
-## Sections
-The company is pretty big: 1000+ people. There are a variety of different teams and initiatives going on across the company. To make sure the update works well, try breaking it into sections of similar things. You might break into clusters like {product development, go to market, finance} or {recruiting, execution, vision}, or {external news, internal news} etc. Try to make sure the different areas of the company are highlighted well.
+## Formatting Tips
 
-## Prioritization
-Focus on:
-- Company-wide impact (not team-specific details)
-- Announcements from leadership
-- Major milestones and achievements
-- Information that affects most employees
-- External recognition or press
-
-Avoid:
-- Overly granular team updates (save those for 3Ps)
-- Information only relevant to small groups
-- Duplicate information already communicated
-
-## Example Formats
-
-:megaphone: Company Announcements
-- Announcement 1
-- Announcement 2
-- Announcement 3
-
-:dart: Progress on Priorities
-- Area 1
-    - Sub-area 1
-    - Sub-area 2
-    - Sub-area 3
-- Area 2
-    - Sub-area 1
-    - Sub-area 2
-    - Sub-area 3
-- Area 3
-    - Sub-area 1
-    - Sub-area 2
-    - Sub-area 3
-
-:pillar: Leadership Updates
-- Post 1
-- Post 2
-- Post 3
-
-:thread: Social Updates
-- Update 1
-- Update 2
-- Update 3
+- 使用明确标题和小节
+- 以短段落和项目符号为主
+- 若包含图片或链接，注明来源与访问方式
+- 结尾加入联系窗口或投稿方式

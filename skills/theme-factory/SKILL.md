@@ -1,59 +1,59 @@
 ---
 name: theme-factory
-description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
-license: Complete terms in LICENSE.txt
+description: 用于给各类 artifacts 套用主题样式的工具包。可处理 slides、docs、reporting、HTML landing pages 等产物，既能套用 10 套内置颜色/字体主题，也可以临时生成全新的主题。
+license: 完整条款见 LICENSE.txt
 ---
-
 
 # Theme Factory Skill
 
-This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.
+此技能提供了一组经过精心挑选的专业字体与配色主题，每套都包含协调的色板和互补的字体组合。确定主题后即可应用到任何 artifact 上。
 
-## Purpose
+## 目标
 
-To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:
-- A cohesive color palette with hex codes
-- Complementary font pairings for headers and body text
-- A distinct visual identity suitable for different contexts and audiences
+当需要为演示文稿等产物施加统一、专业的视觉风格时，使用此技能。每套主题都包含：
+- 带十六进制色值的连贯配色方案
+- 标题与正文的互补字体搭配
+- 适用于不同情境与受众的独特视觉身份
 
-## Usage Instructions
+## 使用说明
 
-To apply styling to a slide deck or other artifact:
+要为 slide deck 或其他 artifact 应用主题：
 
-1. **Show the theme showcase**: Display the `theme-showcase.pdf` file to allow users to see all available themes visually. Do not make any modifications to it; simply show the file for viewing.
-2. **Ask for their choice**: Ask which theme to apply to the deck
-3. **Wait for selection**: Get explicit confirmation about the chosen theme
-4. **Apply the theme**: Once a theme has been chosen, apply the selected theme's colors and fonts to the deck/artifact
+1. **展示主题样册**：显示 `theme-showcase.pdf`，让用户查看所有可用主题。不得修改该文件，只需展示。
+2. **询问选择**：询问希望应用哪一套主题
+3. **等待确认**：必须得到明确的主题选择
+4. **应用主题**：收到确认后，将选定主题的颜色与字体套用到 deck/artifact
 
-## Themes Available
+## 可用主题
 
-The following 10 themes are available, each showcased in `theme-showcase.pdf`:
+以下 10 套主题都展示在 `theme-showcase.pdf` 中：
 
-1. **Ocean Depths** - Professional and calming maritime theme
-2. **Sunset Boulevard** - Warm and vibrant sunset colors
-3. **Forest Canopy** - Natural and grounded earth tones
-4. **Modern Minimalist** - Clean and contemporary grayscale
-5. **Golden Hour** - Rich and warm autumnal palette
-6. **Arctic Frost** - Cool and crisp winter-inspired theme
-7. **Desert Rose** - Soft and sophisticated dusty tones
-8. **Tech Innovation** - Bold and modern tech aesthetic
-9. **Botanical Garden** - Fresh and organic garden colors
-10. **Midnight Galaxy** - Dramatic and cosmic deep tones
+1. **Ocean Depths** - 专业、平静的海洋氛围
+2. **Sunset Boulevard** - 温暖而鲜艳的日落色调
+3. **Forest Canopy** - 自然沉稳的土色系
+4. **Modern Minimalist** - 干净现代的灰阶美学
+5. **Golden Hour** - 富有层次的暖秋调色板
+6. **Arctic Frost** - 清冷利落的冬季灵感
+7. **Desert Rose** - 柔和且高雅的干燥粉色调
+8. **Tech Innovation** - 大胆现代的科技风格
+9. **Botanical Garden** - 清新有机的花园色彩
+10. **Midnight Galaxy** - 戏剧化、宇宙感的深色方案
 
-## Theme Details
+## 主题文件
 
-Each theme is defined in the `themes/` directory with complete specifications including:
-- Cohesive color palette with hex codes
-- Complementary font pairings for headers and body text
-- Distinct visual identity suitable for different contexts and audiences
+每套主题都在 `themes/` 目录中定义，内容包含：
+- 带十六进制色值的协调配色
+- 标题与正文的互补字体组合
+- 适用于不同语境与受众的视觉身份描述
 
-## Application Process
+## 应用流程
 
-After a preferred theme is selected:
-1. Read the corresponding theme file from the `themes/` directory
-2. Apply the specified colors and fonts consistently throughout the deck
-3. Ensure proper contrast and readability
-4. Maintain the theme's visual identity across all slides
+选定主题后：
+1. 读取 `themes/` 目录下对应的主题文件
+2. 将指定颜色与字体在 deck 中保持一致
+3. 确保对比度与可读性
+4. 全部页面都维持该主题的视觉语言
 
-## Create your Own Theme
-To handle cases where none of the existing themes work for an artifact, create a custom theme. Based on provided inputs, generate a new theme similar to the ones above. Give the theme a similar name describing what the font/color combinations represent. Use any basic description provided to choose appropriate colors/fonts. After generating the theme, show it for review and verification. Following that, apply the theme as described above.
+## 自定义主题
+
+当既有主题都不合适时，可以创建自定义主题。根据用户输入生成一套与上述类似的主题，并以能描述字体/颜色气质的名称命名。基于提供的描述挑选合适的配色与字体。生成后先展示让用户确认，然后按照前述步骤应用到 artifact。

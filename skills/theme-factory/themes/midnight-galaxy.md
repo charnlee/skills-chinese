@@ -1,19 +1,19 @@
 # Midnight Galaxy
 
-A dramatic and cosmic theme with deep purples and mystical tones for impactful presentations.
+戏剧化的深色主题，带有宇宙与星际氛围。
 
 ## Color Palette
 
-- **Deep Purple**: `#2b1e3e` - Rich dark base
-- **Cosmic Blue**: `#4a4e8f` - Mystical mid-tone
-- **Lavender**: `#a490c2` - Soft accent color
-- **Silver**: `#e6e6fa` - Light highlights and text
+- **Cosmic Black**：`#0b0d21` - 背景
+- **Nebula Purple**：`#673ab7` - 重点
+- **Starlight Blue**：`#3f51b5` - 次级强调
+- **Silver Glow**：`#d1d6f0` - 文本/图标
 
 ## Typography
 
-- **Headers**: FreeSans Bold
-- **Body Text**: FreeSans
+- **Headers**：Space Grotesk Bold
+- **Body Text**：Space Grotesk Medium
 
 ## Best Used For
 
-Entertainment industry, gaming presentations, nightlife venues, luxury brands, creative agencies.
+创新发布、未来主题、夜间活动、任何希望营造沉浸式氛围的 deck。

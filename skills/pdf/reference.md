@@ -1,11 +1,11 @@
 # PDF Processing Advanced Reference
 
-This document contains advanced PDF processing features, detailed examples, and additional libraries not covered in the main skill instructions.
+本参考指南涵盖主技能说明之外的高级 PDF 处理技巧、示例与附加库，便于在复杂场景中快速查找模式。
 
-## pypdfium2 Library (Apache/BSD License)
+## pypdfium2 库（Apache/BSD License）
 
 ### Overview
-pypdfium2 is a Python binding for PDFium (Chromium's PDF library). It's excellent for fast PDF rendering, image generation, and serves as a PyMuPDF replacement.
+pypdfium2 是 PDFium（Chromium PDF 引擎）的 Python 绑定，适合高速渲染、生成图像，并可作为 PyMuPDF 的替代品。
 
 ### Render PDF to Images
 ```python
@@ -45,9 +45,9 @@ for i, page in enumerate(pdf):
 
 ## JavaScript Libraries
 
-### pdf-lib (MIT License)
+### pdf-lib（MIT License）
 
-pdf-lib is a powerful JavaScript library for creating and modifying PDF documents in any JavaScript environment.
+pdf-lib 是一个功能强大的 JavaScript PDF 库，可在任意 JS 运行时创建或修改 PDF。
 
 #### Load and Manipulate Existing PDF
 ```javascript
@@ -134,17 +134,16 @@ async function createPDF() {
     });
 
     const pdfBytes = await pdfDoc.save();
-    fs.writeFileSync('created.pdf', pdfBytes);
+    fs.writeFileSync('invoice.pdf', pdfBytes);
 }
 ```
 
-#### Advanced Merge and Split Operations
+#### Merge PDFs
 ```javascript
 import { PDFDocument } from 'pdf-lib';
 import fs from 'fs';
 
 async function mergePDFs() {
-    // Create new document
     const mergedPdf = await PDFDocument.create();
 
     // Load source PDFs
@@ -167,9 +166,9 @@ async function mergePDFs() {
 }
 ```
 
-### pdfjs-dist (Apache License)
+### pdfjs-dist（Apache License）
 
-PDF.js is Mozilla's JavaScript library for rendering PDFs in the browser.
+PDF.js 是 Mozilla 面向浏览器的 PDF 渲染库。
 
 #### Basic PDF Loading and Rendering
 ```javascript
@@ -264,7 +263,7 @@ async function extractAnnotations() {
 
 ## Advanced Command-Line Operations
 
-### poppler-utils Advanced Features
+### poppler-utils 高级用法
 
 #### Extract Text with Bounding Box Coordinates
 ```bash
@@ -298,7 +297,7 @@ pdfimages -list document.pdf
 pdfimages -all document.pdf images/img
 ```
 
-### qpdf Advanced Features
+### qpdf 高级用法
 
 #### Complex Page Manipulation
 ```bash
@@ -427,13 +426,13 @@ doc.build(elements)
 
 ### Extract Figures/Images from PDF
 
-#### Method 1: Using pdfimages (fastest)
+#### 方法 1：pdfimages（最快）
 ```bash
 # Extract all images with original quality
 pdfimages -all document.pdf images/img
 ```
 
-#### Method 2: Using pypdfium2 + Image Processing
+#### 方法 2：pypdfium2 + 图像处理
 ```python
 import pypdfium2 as pdfium
 from PIL import Image
@@ -527,25 +526,25 @@ with open("cropped.pdf", "wb") as output:
 
 ## Performance Optimization Tips
 
-### 1. For Large PDFs
-- Use streaming approaches instead of loading entire PDF in memory
-- Use `qpdf --split-pages` for splitting large files
-- Process pages individually with pypdfium2
+### 1. 针对大文件
+- 尽量使用流式处理，避免一次加载全部内容
+- 用 `qpdf --split-pages` 分段处理
+- 结合 pypdfium2 单页处理
 
-### 2. For Text Extraction
-- `pdftotext -bbox-layout` is fastest for plain text extraction
-- Use pdfplumber for structured data and tables
-- Avoid `pypdf.extract_text()` for very large documents
+### 2. 文本抽取
+- 纯文本最快：`pdftotext -bbox-layout`
+- 结构化/表格建议用 pdfplumber
+- 超大文件避免 `pypdf.extract_text()`
 
-### 3. For Image Extraction
-- `pdfimages` is much faster than rendering pages
-- Use low resolution for previews, high resolution for final output
+### 3. 图像抽取
+- `pdfimages` 比整页渲染更快
+- 预览使用低分辨率，最终输出再提高分辨率
 
-### 4. For Form Filling
-- pdf-lib maintains form structure better than most alternatives
-- Pre-validate form fields before processing
+### 4. 填表
+- pdf-lib 在保持表单结构方面更稳定
+- 处理前先验证字段映射
 
-### 5. Memory Management
+### 5. 内存管理
 ```python
 # Process PDFs in chunks
 def process_large_pdf(pdf_path, chunk_size=10):
@@ -602,11 +601,11 @@ def extract_text_with_ocr(pdf_path):
 
 ## License Information
 
-- **pypdf**: BSD License
-- **pdfplumber**: MIT License
-- **pypdfium2**: Apache/BSD License
-- **reportlab**: BSD License
-- **poppler-utils**: GPL-2 License
-- **qpdf**: Apache License
-- **pdf-lib**: MIT License
-- **pdfjs-dist**: Apache License
+- **pypdf**：BSD License
+- **pdfplumber**：MIT License
+- **pypdfium2**：Apache/BSD License
+- **reportlab**：BSD License
+- **poppler-utils**：GPL-2 License
+- **qpdf**：Apache License
+- **pdf-lib**：MIT License
+- **pdfjs-dist**：Apache License

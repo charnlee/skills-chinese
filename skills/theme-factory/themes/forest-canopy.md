@@ -1,19 +1,19 @@
 # Forest Canopy
 
-A natural and grounded theme featuring earth tones inspired by dense forest environments.
+自然、沉稳、带有泥土气息的配色，适合讲述可持续与生态主题。
 
 ## Color Palette
 
-- **Forest Green**: `#2d4a2b` - Primary dark green
-- **Sage**: `#7d8471` - Muted green accent
-- **Olive**: `#a4ac86` - Light accent color
-- **Ivory**: `#faf9f6` - Backgrounds and text
+- **Earth Brown**：`#4f3824` - 主背景
+- **Canopy Green**：`#3c6d4c` - 强调元素
+- **Moss**：`#88a550` - 次级强调
+- **Fog**：`#f0efe5` - 文本与浅底
 
 ## Typography
 
-- **Headers**: FreeSerif Bold
-- **Body Text**: FreeSans
+- **Headers**：Merriweather Bold
+- **Body Text**：Source Sans Pro
 
 ## Best Used For
 
-Environmental presentations, sustainability reports, outdoor brands, wellness content, organic products.
+环境、农业、自然科学、非营利组织、讲述长期愿景的 deck。

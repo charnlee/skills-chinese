@@ -1,19 +1,19 @@
 # Arctic Frost
 
-A cool and crisp winter-inspired theme that conveys clarity, precision, and professionalism.
+灵感来自冬季的冷冽主题，强调干净与清晰。
 
 ## Color Palette
 
-- **Ice Blue**: `#d4e4f7` - Light backgrounds and highlights
-- **Steel Blue**: `#4a6fa5` - Primary accent color
-- **Silver**: `#c0c0c0` - Metallic accent elements
-- **Crisp White**: `#fafafa` - Clean backgrounds and text
+- **Polar Blue**：`#1c3c57` - 主色
+- **Ice Mint**：`#6fb1c5` - 高亮
+- **Frost White**：`#eef7fb` - 背景
+- **Slate Gray**：`#4f5b66` - 文本对比
 
 ## Typography
 
-- **Headers**: DejaVu Sans Bold
-- **Body Text**: DejaVu Sans
+- **Headers**：Raleway SemiBold
+- **Body Text**：Source Sans Pro
 
 ## Best Used For
 
-Healthcare presentations, technology solutions, winter sports, clean tech, pharmaceutical content.
+科技、医疗、专业服务、需要传达理性与透明度的内容。

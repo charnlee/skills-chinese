@@ -1,19 +1,19 @@
 # Golden Hour
 
-A rich and warm autumnal palette that creates an inviting and sophisticated atmosphere.
+充满金色暖调的主题，捕捉黄昏时刻的柔光。
 
 ## Color Palette
 
-- **Mustard Yellow**: `#f4a900` - Bold primary accent
-- **Terracotta**: `#c1666b` - Warm secondary color
-- **Warm Beige**: `#d4b896` - Neutral backgrounds
-- **Chocolate Brown**: `#4a403a` - Dark text and anchors
+- **Amber**：`#f4a261` - 主背景
+- **Burnt Sienna**：`#e76f51` - 重点元素
+- **Soft Taupe**：`#d9c3a3` - 辅助区域
+- **Ivory Light**：`#fff6e9` - 文本/浅底
 
 ## Typography
 
-- **Headers**: FreeSans Bold
-- **Body Text**: FreeSans
+- **Headers**：Libre Baskerville Bold
+- **Body Text**：Source Sans Pro
 
 ## Best Used For
 
-Restaurant presentations, hospitality brands, fall campaigns, cozy lifestyle content, artisan products.
+品牌叙事、摄影、创意提案、任何需要温暖、富含情感的语气。

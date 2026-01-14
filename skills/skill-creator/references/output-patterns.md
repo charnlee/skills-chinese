@@ -1,62 +1,62 @@
 # Output Patterns
 
-Use these patterns when skills need to produce consistent, high-quality output.
+当技能需要输出一致且高质量的结果时，可使用以下模式。
 
 ## Template Pattern
 
-Provide templates for output format. Match the level of strictness to your needs.
+提供输出模板，并根据需求决定严格程度。
 
-**For strict requirements (like API responses or data formats):**
+**严格要求（如 API 响应或结构化数据）示例：**
 
 ```markdown
 ## Report structure
 
-ALWAYS use this exact template structure:
+务必遵循以下模板：
 
 # [Analysis Title]
 
 ## Executive summary
-[One-paragraph overview of key findings]
+[一段式概述关键发现]
 
 ## Key findings
-- Finding 1 with supporting data
-- Finding 2 with supporting data
-- Finding 3 with supporting data
+- 发现 1 + 支持数据
+- 发现 2 + 支持数据
+- 发现 3 + 支持数据
 
 ## Recommendations
-1. Specific actionable recommendation
-2. Specific actionable recommendation
+1. 可执行建议
+2. 可执行建议
 ```
 
-**For flexible guidance (when adaptation is useful):**
+**弹性指导（允许按情境调整）示例：**
 
 ```markdown
 ## Report structure
 
-Here is a sensible default format, but use your best judgment:
+以下为默认结构，可视情况调整：
 
 # [Analysis Title]
 
 ## Executive summary
-[Overview]
+[概览]
 
 ## Key findings
-[Adapt sections based on what you discover]
+[依据发现自定义段落]
 
 ## Recommendations
-[Tailor to the specific context]
+[结合上下文提出建议]
 
-Adjust sections as needed for the specific analysis type.
+需要时可增减章节。
 ```
 
 ## Examples Pattern
 
-For skills where output quality depends on seeing examples, provide input/output pairs:
+当输出质量依赖示例时，提供输入/输出对：
 
 ```markdown
 ## Commit message format
 
-Generate commit messages following these examples:
+生成提交信息时遵循下列示例：
 
 **Example 1:**
 Input: Added user authentication with JWT tokens
@@ -76,7 +76,7 @@ fix(reports): correct date formatting in timezone conversion
 Use UTC timestamps consistently across report generation
 ```
 
-Follow this style: type(scope): brief description, then detailed explanation.
+格式为 type(scope): 简述，随后为详细说明。
 ```
 
-Examples help Claude understand the desired style and level of detail more clearly than descriptions alone.
+示例能比纯文字描述更清晰地传达风格与细节层级。

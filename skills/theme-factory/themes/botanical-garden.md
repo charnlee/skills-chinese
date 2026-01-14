@@ -1,19 +1,19 @@
 # Botanical Garden
 
-A fresh and organic theme featuring vibrant garden-inspired colors for lively presentations.
+清新有机的花园色调，适合自然与健康向的叙事。
 
 ## Color Palette
 
-- **Fern Green**: `#4a7c59` - Rich natural green
-- **Marigold**: `#f9a620` - Bright floral accent
-- **Terracotta**: `#b7472a` - Earthy warm tone
-- **Cream**: `#f5f3ed` - Soft neutral backgrounds
+- **Leaf Green**：`#4b7f52` - 主色
+- **Herb**：`#99c19e` - 辅助
+- **Petal Blush**：`#f2d4c2` - 柔和点缀
+- **Dew White**：`#f7f5f0` - 文本与底色
 
 ## Typography
 
-- **Headers**: DejaVu Serif Bold
-- **Body Text**: DejaVu Sans
+- **Headers**：Cormorant Garamond Bold
+- **Body Text**：Source Sans Pro
 
 ## Best Used For
 
-Garden centers, food presentations, farm-to-table content, botanical brands, natural products.
+健康、保健、园艺、生活方式品牌，或任何希望传达自然平衡感的 deck。

@@ -1,16 +1,28 @@
-  ## Instructions
-  You are being asked to write internal company communication that doesn't fit into the standard formats (3P
-  updates, newsletters, or FAQs).
+## Instructions
+当需要撰写未明确归类的内部沟通内容时，遵循此指南。目标是为合适的受众提供清晰、可信、行动导向的信息，同时保持公司常见语气。
 
-  Before proceeding:
-  1. Ask the user about their target audience
-  2. Understand the communication's purpose
-  3. Clarify the desired tone (formal, casual, urgent, informational)
-  4. Confirm any specific formatting requirements
+## Workflow
 
-  Use these general principles:
-  - Be clear and concise
-  - Use active voice
-  - Put the most important information first
-  - Include relevant links and references
-  - Match the company's communication style
+1. **确认沟通类型与受众**：明确是公告、变更通知、总结还是项目更新，并确定读者是谁。
+2. **收集信息**：向用户询问背景、要传递的关键信息、任何必须包含的细节（日期、负责人、风险等）。
+3. **确定结构**：通常包括开场（目的）、正文（细节/影响/下一步）、结尾（行动或联系渠道）。
+4. **起草**：使用短段落与明确小节标题，强调可执行点。
+5. **校对**：确保语气一致、无矛盾信息、所有专有名词正确。
+
+## Formatting Tips
+
+- 标题：使用一句话总结主题
+- 引言：简述沟通目的、背景
+- 正文：按小节呈现，常见结构示例：
+  - 背景 / 现状
+  - 变化 / 关键信息
+  - 影响 / 收益
+  - 下一步 / 请求
+- 结尾：重申行动项、负责人或渠道
+
+## Tone & Style
+
+- 透明且务实：说明原因与影响
+- 聚焦读者关心的问题："这对我意味着什么？"
+- 尊重不同信息敏感度：必要时提醒保密
+- 如涉及风险或未定事项，明确说明现状与下一步
